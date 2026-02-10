@@ -37,6 +37,9 @@ export function useAuth() {
 
   const expectedHash = process.env.REACT_APP_PORTAL_PASSWORD_HASH;
 
+  // Debug: check if env var is loaded
+  console.log('Expected hash loaded:', expectedHash ? 'yes' : 'no');
+
   useEffect(() => {
     const stored = getStoredAuth();
     if (stored && stored.hash === expectedHash && stored.expiry > Date.now()) {
