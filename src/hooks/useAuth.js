@@ -54,6 +54,8 @@ export function useAuth() {
     setError(null);
     try {
       const hash = await hashPassword(password);
+      console.log('Input hash:', hash);
+      console.log('Expected hash:', expectedHash);
       if (hash === expectedHash) {
         setStoredAuth(hash);
         setIsAuthenticated(true);
