@@ -1,4 +1,4 @@
-import { Pill, Users, Building2, Activity, Briefcase, Stethoscope } from 'lucide-react';
+import { Pill, Users, Building2, Activity, Briefcase, Stethoscope, Leaf } from 'lucide-react';
 
 export const demos = [
   {
@@ -28,6 +28,13 @@ export const demos = [
     description: 'Nephrology-focused insights platform with patient journey analytics.',
     url: 'https://aurivian-biogen-demo.vercel.app/',
     icon: Activity,
+  },
+  {
+    id: 'nestle-health-science',
+    title: 'Nestlé Health Science',
+    description: 'Claim substantiation intelligence for VMHS portfolio — evidence analysis, regulatory claims, and ingredient insights.',
+    url: 'https://aurivian-nestle-demo.vercel.app/',
+    icon: Leaf,
   },
   {
     id: 'aurivian-commercial',
