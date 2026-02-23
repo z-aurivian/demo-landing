@@ -1,4 +1,4 @@
-import { Pill, Users, Building2, Activity, Briefcase, Stethoscope, Leaf } from 'lucide-react';
+import { Pill, Users, Building2, Activity, Briefcase, Stethoscope, Leaf, FlaskConical } from 'lucide-react';
 
 export const demos = [
   {
@@ -35,6 +35,13 @@ export const demos = [
     description: 'Claim substantiation intelligence for VMHS portfolio — evidence analysis, regulatory claims, and ingredient insights.',
     url: 'https://aurivian-nestle-demo.vercel.app/',
     icon: Leaf,
+  },
+  {
+    id: 'alexion-medical-affairs',
+    title: 'Alexion Pharmaceuticals',
+    description: 'Medical affairs intelligence for Alexion\'s complement inhibitor franchise — Soliris & Ultomiris with real PubMed and clinical trials data.',
+    url: 'https://aurivian-alexion-demo.vercel.app/',
+    icon: FlaskConical,
   },
   {
     id: 'aurivian-commercial',
