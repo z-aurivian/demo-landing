@@ -1,4 +1,4 @@
-import { Pill, Users, Building2, Activity, Briefcase, Stethoscope, Leaf, FlaskConical } from 'lucide-react';
+import { Pill, Users, Building2, Activity, Briefcase, Stethoscope, Leaf, FlaskConical, Zap } from 'lucide-react';
 
 export const demos = [
   {
@@ -42,6 +42,13 @@ export const demos = [
     description: 'Medical affairs intelligence for Alexion\'s complement inhibitor franchise — Soliris & Ultomiris with real PubMed and clinical trials data.',
     url: 'https://aurivian-alexion-demo.vercel.app/',
     icon: FlaskConical,
+  },
+  {
+    id: 'novo-nordisk-congress',
+    title: 'Novo Nordisk',
+    description: 'Congress capture & collaboration app for the obesity/GLP-1 franchise — ECO 2025 field intelligence with gamification and AI co-pilot.',
+    url: 'https://aurivian-novo-nordisk-demo.vercel.app/',
+    icon: Zap,
   },
   {
     id: 'aurivian-commercial',
